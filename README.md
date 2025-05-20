@@ -50,16 +50,32 @@ The framework serves a similar purpose to dotfiles and `.bash_profile` by custom
 | **Purpose**                 | Creates executable CLI scripts for multiple tools | Manages shell and tool configurations | Configures user-specific Bash settings |
 | **Scope**                   | Tool-agnostic, supports Docker, Ansible, Terraform, etc. | Broad, covering multiple tools and settings | Specific to Bash shell initialization |
 | **Location**                | Installs scripts in `/usr/bin` | Typically in `~/.dotfiles` or home directory | In user’s home directory (`~/.bash_profile`) |
+| **Availability**                | Global (for all users)| User specific| User specific |
 | **Execution**               | Standalone executable scripts | Sourced or linked to shell | Sourced during Bash login sessions |
 | **Portability**             | System-wide, requires root for `/usr/bin` | Highly portable, often version-controlled | User-specific, less portable |
 | **Ease of Extension**       | Add commands to `commands` array | Add new files or modify existing ones | Modify single file, but can get cluttered |
 | **Permission Requirements** | Requires `chmod 777` (consider `755` for security) | Typically user-level permissions | User-level permissions only |
 | **Use Case**                | Streamlining workflows for multiple CLI tools | General shell and tool customization | Bash-specific environment setup |
+| **Version Controlled**                | No| Yes | No |
+| **Auto Update**                | No| Yes | No |
+| **Power 💪**                | ***| ***** (Winner) | **** |
+
 
 ### Key Differences Explained:
 - **Custom CLI Framework**: Installs system-wide commands for tools like Docker, Ansible, or Kubernetes, making them accessible to all users. Requires root privileges but offers a scalable structure.
+    ```
+    https://github.com/meibraransari/Custom-CLI-Commands
+    ```
+
 - **Dotfiles**: A collection of configuration files for various tools, ideal for version control and portability but less focused on standalone commands.
+    ```
+    https://github.com/meibraransari/dotfiles
+    ```
+
 - **`.bash_profile`**: Limited to Bash login shells, suitable for user-specific aliases but not ideal for system-wide or multi-tool command frameworks.
+    ```
+    https://github.com/meibraransari/bash_profile
+    ```
 
 ## Installation and Usage 🛠️
 
@@ -82,6 +98,14 @@ The framework serves a similar purpose to dotfiles and `.bash_profile` by custom
 
 Fork the script, add new tool commands, or enhance existing ones! Submit a pull request or open an issue for suggestions. Contributions to support more tools like Helm, Packer, or AWS CLI are welcome! 🌈
 
-## License 📜
+### 💼 Connect with me 👇👇 😊
 
-This framework is provided under the MIT License. Use it, modify it, and share it freely! 😊
+- 🔥 [**Youtube**](https://www.youtube.com/@DevOpsinAction?sub_confirmation=1)
+- ✍ [**Blog**](https://ibraransari.blogspot.com/)
+- 💼 [**LinkedIn**](https://www.linkedin.com/in/ansariibrar/)
+- 👨‍💻 [**Github**](https://github.com/meibraransari?tab=repositories)
+- 💬 [**Telegram**](https://t.me/DevOpsinActionTelegram)
+- 🐳 [**Docker**](https://hub.docker.com/u/ibraransaridocker)
+
+# Hit the Star! ⭐
+***If you are planning to use this repo for learning, please hit the star. Thanks!***
