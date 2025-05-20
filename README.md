@@ -74,7 +74,7 @@ The framework serves a similar purpose to dotfiles and `.bash_profile` by custom
 
 - **Custom CLI Framework**: Installs system-wide commands for tools like Docker, Ansible, or Kubernetes, making them accessible to all users. Requires root privileges but offers a scalable structure.
     ```
-    https://github.com/meibraransari/Custom-CLI-Commands/blob/main/config/custom_cli.sh
+    https://github.com/meibraransari/Custom-CLI-Commands
     ```
 
 
