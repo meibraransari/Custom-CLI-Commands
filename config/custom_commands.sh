@@ -1,9 +1,23 @@
 #!/bin/bash
+
+###################################
+# Author: Ibrar Ansari
+# Date: 20-05-2025
+# Version: 1
+#
+# This is my ustom commands script
+###################################
+
+########################
+## Installation steps ##
+########################
+# nano custom_commands.sh
+# chmod +x custom_commands.sh
+# bash custom_commands.sh
+
+
 COMMAND_PATH=/usr/bin
 GIVE_PERMISSION='chmod 777'
-
-# Delete all commands before create new one
-#cd $COMMAND_PATH && rm -rf dpl dis drn dps dsp drt dre dls drm dri dit dvl dss drs dhy ddi dec dhp
 
 # Create Help command
 echo $COMMAND_PATH/dhp
@@ -194,3 +208,7 @@ for cmd in "${docker_commands[@]}"; do
     cmd_content="${cmd_parts[1]}"
     generate_docker_command "$cmd_name" "$cmd_content"
 done
+
+
+# Uninstall all commands
+# cd /usr/bin && rm -rf dpl dis drn dps dsp drt dre dls drm dri dit dvl dss drs dhy ddi dec dhp
