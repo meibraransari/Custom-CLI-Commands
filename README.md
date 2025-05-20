@@ -80,7 +80,7 @@ The framework serves a similar purpose to dotfiles and `.bash_profile` by custom
 
 ## Installation and Usage 🛠️
 
-1. **Save the script**: Copy the shell script to a file (e.g., `custom_cli.sh`).
+1. **Save the script**: Copy the [shell script](https://github.com/meibraransari/Custom-CLI-Commands/blob/main/config/custom_cli.sh) to a file (e.g., `custom_cli.sh`).
 2. **Modify the commands array**: Add aliases for tools like Ansible, Terraform, or Kubernetes as needed.
 3. **Run the script**: Execute with `sudo bash custom_cli.sh` to create commands in `/usr/bin`.
 4. **Use the commands**: Run commands like `dpl nginx` (Docker), `apb playbook.yml` (Ansible), or `kget` (Kubernetes).
