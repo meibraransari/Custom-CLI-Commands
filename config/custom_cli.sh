@@ -13,7 +13,7 @@
 ########################
 # nano custom_cli.sh
 # chmod +x custom_cli.sh
-# bash custom_cli.sh
+# sudo bash custom_cli.sh
 
 
 COMMAND_PATH=/usr/bin
@@ -211,4 +211,4 @@ done
 
 
 # Uninstall all commands
-# cd /usr/bin && rm -rf dpl dis drn dps dsp drt dre dls drm dri dit dvl dss drs dhy ddi dec dhp
+# cd /usr/bin && sudo rm -rf dpp dpl dis drn dps dsp drt dre dls drm dri dit dvl dss drs dhy ddi dec dhp
