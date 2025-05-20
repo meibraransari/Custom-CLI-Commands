@@ -2,6 +2,11 @@
 
 This shell script creates a flexible framework for generating custom command-line interface (CLI) commands, initially focused on Docker but designed to be extensible for other tools like Ansible, Terraform, Kubernetes, and more. By generating executable scripts in `/usr/bin`, it provides shorthand aliases to streamline workflows for various DevOps and development tools. 🎉
 
+
+## 🎬 Video Demonstration
+[![Watch on Youtube](https://i.ytimg.com/vi/SeHL6ThEUk4/maxresdefault.jpg)](https://youtu.be/SeHL6ThEUk4)
+
+
 ## What It Does 🛠️
 
 The script performs the following actions:
