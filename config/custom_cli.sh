@@ -11,9 +11,9 @@
 ########################
 ## Installation steps ##
 ########################
-# nano custom_commands.sh
-# chmod +x custom_commands.sh
-# bash custom_commands.sh
+# nano custom_cli.sh
+# chmod +x custom_cli.sh
+# bash custom_cli.sh
 
 
 COMMAND_PATH=/usr/bin
