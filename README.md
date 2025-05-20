@@ -31,7 +31,7 @@ The script’s `generate_docker_command` function can be renamed to `generate_co
 - **Kubernetes**: `kget` for `kubectl get pods`, `kdesc` for `kubectl describe`.
 - **Generic CLI**: Add any command by appending to the `commands` array, e.g., `gitc:git commit -m`.
 
-To add a new tool, update the `commands` array in the script:
+To add a new tool, update the `commands` in the script(always use single command as a function):
 ```bash
 commands=(
     "dpl:docker pull \$1"  # Docker example
